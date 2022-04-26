@@ -3,8 +3,11 @@ string input2 = Console.ReadLine();
 
 int cislo1 = Convert.ToInt32(input1); 
 int cislo2 = Convert.ToInt32(input2);
-
-if (cislo1 > cislo2)
+if (cislo1 == cislo2)
+{
+    Console.WriteLine("Čísla jsou shodná");
+}
+else if (cislo1 > cislo2)
 {
     Console.WriteLine($"{cislo1}, {cislo2}");
 }
